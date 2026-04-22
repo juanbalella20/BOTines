@@ -1,0 +1,31 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Badges & chips</title>
+<link rel="stylesheet" href="../colors_and_type.css"/>
+<style>
+  body{margin:0;padding:22px;background:#fff;font-family:var(--font-sans)}
+  .lab{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3);margin:0 0 10px}
+  .row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .b{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-size:11px;font-weight:700;border:1px solid}
+  .dot{width:6px;height:6px;border-radius:999px}
+</style>
+</head><body>
+  <div class="lab">Reservation status</div>
+  <div class="row">
+    <span class="b" style="background:#ffedd5;border-color:#fb923c33;color:#9a3412"><span class="dot" style="background:#fb923c"></span>Confirmada</span>
+    <span class="b" style="background:#ede9fe;border-color:#a78bfa33;color:#5b21b6"><span class="dot" style="background:#a78bfa"></span>Comprobante enviado</span>
+    <span class="b" style="background:#dbeafe;border-color:#60a5fa33;color:#1d4ed8"><span class="dot" style="background:#60a5fa"></span>Seña OK</span>
+    <span class="b" style="background:#dcfce7;border-color:#22c55e33;color:#15803d"><span class="dot" style="background:#22c55e"></span>Pagado</span>
+    <span class="b" style="background:#fee2e2;border-color:#f8717133;color:#b91c1c"><span class="dot" style="background:#f87171"></span>Cancelada</span>
+  </div>
+  <div class="lab">Origin</div>
+  <div class="row">
+    <span class="b" style="background:#DBEAFE;border-color:#BFDBFE;color:#1e40af">WhatsApp</span>
+    <span class="b" style="background:#F5F3FF;border-color:#DDD6FE;color:#6D28D9">Presencial</span>
+  </div>
+  <div class="lab">Counter · notification</div>
+  <div class="row">
+    <span class="b" style="background:#EF4444;border-color:transparent;color:#fff;padding:2px 8px;font-size:10px">3</span>
+    <span class="b" style="background:#EF4444;border-color:transparent;color:#fff;padding:2px 8px;font-size:10px">12</span>
+    <span class="b" style="background:#7E8C54;border-color:transparent;color:#fff">New</span>
+  </div>
+</body></html>

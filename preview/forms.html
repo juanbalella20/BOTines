@@ -1,0 +1,33 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Form inputs</title>
+<link rel="stylesheet" href="../colors_and_type.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+<style>
+  body{margin:0;padding:22px;background:#fff;font-family:var(--font-sans)}
+  .lab{display:block;font-size:12px;font-weight:600;color:#4B5563;margin-bottom:6px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+  input,select,textarea{width:100%;padding:10px 12px;font-size:14px;border:1px solid #D1D5DB;border-radius:10px;background:#fff;font-family:inherit;outline:none;box-sizing:border-box}
+  input:focus,select:focus{border-color:#7E8C54;box-shadow:0 0 0 3px rgba(126,140,84,.15)}
+  .search{position:relative}
+  .search i{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#9CA3AF;font-size:13px}
+  .search input{padding-left:36px}
+  .toggle{display:inline-flex;align-items:center;gap:10px;font-size:13px;color:#374151}
+  .tg{width:38px;height:22px;background:#7E8C54;border-radius:999px;position:relative}
+  .tg.off{background:#D1D5DB}
+  .tg::after{content:"";position:absolute;top:3px;left:19px;width:16px;height:16px;background:#fff;border-radius:999px;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:.2s}
+  .tg.off::after{left:3px}
+</style>
+</head><body>
+  <div class="row">
+    <div><label class="lab">Nombre del cliente</label><input value="Lionel M."/></div>
+    <div><label class="lab">Teléfono</label><input placeholder="1123456789"/></div>
+  </div>
+  <div class="row">
+    <div><label class="lab">Estado</label><select><option>Confirmada</option></select></div>
+    <div><label class="lab">Buscar</label><div class="search"><i class="fas fa-search"></i><input placeholder="Buscar cliente"/></div></div>
+  </div>
+  <div class="row" style="align-items:center">
+    <div class="toggle"><span class="tg"></span>Notificaciones on</div>
+    <div class="toggle"><span class="tg off"></span>Requiere seña</div>
+  </div>
+</body></html>

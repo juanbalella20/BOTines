@@ -1,0 +1,41 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Buttons</title>
+<link rel="stylesheet" href="../colors_and_type.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+<style>
+  body{margin:0;padding:22px;background:#fff;font-family:var(--font-sans)}
+  .lab{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3);margin:0 0 10px}
+  .row{display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:14px;padding:10px 18px;border-radius:10px;border:1px solid transparent;font-family:inherit;cursor:pointer;transition:all .18s}
+  .p-olive{background:#7E8C54;color:#fff;box-shadow:0 8px 24px -8px rgba(126,140,84,.45)}
+  .p-green{background:#16a34a;color:#fff;box-shadow:0 2px 6px rgba(22,163,74,.25)}
+  .s-gray{background:#F3F4F6;color:#374151;border-color:#E5E7EB}
+  .s-out{background:#fff;color:#1A1A1A;border-color:#D1D5DB}
+  .d-red{background:#FEE2E2;color:#B91C1C}
+  .wa{background:#25D366;color:#fff}
+  .ghost{background:transparent;color:#7E8C54;padding:10px 12px}
+  .sz-sm{font-size:12px;padding:6px 12px}
+  .sz-lg{font-size:16px;padding:14px 24px}
+</style>
+</head><body>
+  <div class="lab">Primary — olive (marketing) · green (product)</div>
+  <div class="row">
+    <button class="btn p-olive">Get started</button>
+    <button class="btn p-olive"><i class="fas fa-arrow-right"></i>Start free trial</button>
+    <button class="btn p-green"><i class="fas fa-plus"></i>Nueva reserva</button>
+  </div>
+  <div class="lab">Secondary · outline · danger · whatsapp</div>
+  <div class="row">
+    <button class="btn s-gray">See how it works</button>
+    <button class="btn s-out">Cancelar</button>
+    <button class="btn d-red"><i class="fas fa-trash-alt"></i>Eliminar</button>
+    <button class="btn wa"><i class="fab fa-whatsapp"></i>Contact us</button>
+    <button class="btn ghost">Learn more →</button>
+  </div>
+  <div class="lab">Sizes</div>
+  <div class="row">
+    <button class="btn p-olive sz-sm">Small</button>
+    <button class="btn p-olive">Default</button>
+    <button class="btn p-olive sz-lg">Large</button>
+  </div>
+</body></html>
