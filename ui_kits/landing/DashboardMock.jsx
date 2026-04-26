@@ -15,7 +15,7 @@ function DashboardMock() {
           <div className="monitor__bezel">
             <div className="monitor__screen">
               <img
-                src="../../uploads/WhatsApp Image 2026-04-19 at 22.31.07.jpeg"
+                src="dashboard-preview.jpg"
                 alt="Panel de administración BOTines — vista de calendario semanal"
                 className="monitor__img"
               />
