@@ -306,16 +306,15 @@ ul { list-style: none; padding: 0; margin: 0; }
 .monitor__screen {
   border-radius: 6px;
   overflow: hidden;
-  background: #000;
-  aspect-ratio: 16 / 9;
+  background: #fff;
+  aspect-ratio: 3 / 2;
   width: 100%;
 }
 
 .monitor__img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top left;
+  object-fit: fill;
   display: block;
 }
 
