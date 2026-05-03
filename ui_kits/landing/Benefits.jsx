@@ -4,8 +4,8 @@ function Benefits() {
       desc: "El bot contesta en segundos, de día y de noche. Sin chats olvidados, sin horarios que se escapan." },
     { icon: "fa-hourglass-half", title: "Recuperá tus horas",
       desc: "Dejá de contestar cuarenta veces \"¿tenés cancha a las 20?\" — dejá que el bot maneje la disponibilidad." },
-    { icon: "fa-chart-line",     title: "Llená más horarios vacíos",
-      desc: "Recordatorios automáticos, lista de espera y ofertas off-peak convierten horas muertas en reservas pagas." },
+    { icon: "fa-calendar-alt",   title: "Tu calendario, siempre al día",
+      desc: "Todas las reservas en un solo lugar. Vé qué canchas están ocupadas, qué horarios libres quedan y organizá tu semana de un vistazo." },
     { icon: "fa-heart",          title: "Clientes más contentos",
       desc: "Respuestas al toque, sin formularios, sin apps. Reservas confirmadas en el chat que ya usan." },
   ];
