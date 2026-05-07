@@ -7,7 +7,7 @@ function FinalCTA() {
         <p className="finalcta__s">
           Setup en menos de un día. Sin contratos. Los primeros 14 días son gratis.
         </p>
-        <a href="https://wa.me/" target="_blank" rel="noreferrer" className="btn btn--primary btn--xl">
+        <a href="https://wa.me/541134463218" target="_blank" rel="noreferrer" className="btn btn--primary btn--xl">
           <i className="fab fa-whatsapp"></i> Contactanos por WhatsApp
         </a>
         <div className="finalcta__meta">
@@ -42,7 +42,7 @@ function Footer() {
         </div>
         <div>
           <div className="footer__col-t">Contactanos</div>
-          <a href="https://wa.me/"><i className="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="https://wa.me/541134463218"><i className="fab fa-whatsapp"></i> WhatsApp</a>
           <a href="mailto:hola@botines.app"><i className="far fa-envelope"></i> hola@botines.app</a>
         </div>
       </div>
