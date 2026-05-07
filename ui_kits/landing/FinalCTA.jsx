@@ -43,7 +43,7 @@ function Footer() {
         <div>
           <div className="footer__col-t">Contactanos</div>
           <a href="https://wa.me/"><i className="fab fa-whatsapp"></i> WhatsApp</a>
-          <a href="mailto:hola@botines.app"><i className="far fa-envelope"></i> hola@botines.app</a>
+          <a href="mailto:botines.reservas@gmail.com"><i className="far fa-envelope"></i> botines.reservas@gmail.com</a>
         </div>
       </div>
       <div className="footer__bottom">
