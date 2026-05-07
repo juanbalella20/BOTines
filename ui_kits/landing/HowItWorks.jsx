@@ -1,9 +1,9 @@
 function HowItWorks() {
   const steps = [
     { n: "01", t: "El cliente manda un mensaje por WhatsApp", d: "Escribe al número de tu complejo — sin apps, sin registrarse." },
-    { n: "02", t: "El bot responde con opciones",              d: "BOTines saluda, confirma tu complejo y muestra lo reservable." },
+    { n: "02", t: "El bot responde con opciones",              d: "Botines saluda, muestra precios, y disponibilidad." },
     { n: "03", t: "Elige cancha, día y horario",               d: "La disponibilidad es en vivo. El bot bloquea el slot mientras decide." },
-    { n: "04", t: "La reserva queda confirmada",               d: "Te llega la notificación, se actualiza el calendario y el cliente recibe el comprobante." },
+    { n: "04", t: "La reserva queda confirmada",               d: "Llega la notificación, se actualiza el calendario y vos recibís el comprobante." },
   ];
   return (
     <section className="how reveal" id="how">

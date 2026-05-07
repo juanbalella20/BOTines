@@ -1,7 +1,7 @@
 function Features() {
   const items = [
     { icon: "fa-clock",        title: "Reservas automáticas 24/7",
-      desc: "El bot toma reservas de noche, fines de semana y feriados — sin que toques una pantalla." },
+      desc: "Botines toma reservas de noche, fines de semana y feriados — sin que toques una pantalla." },
     { icon: "fa-calendar-check", title: "Gestión en tiempo real",
       desc: "Cada confirmación aparece al instante en tu panel. Sin reservas duplicadas, sin planillas." },
     { icon: "fa-redo",          title: "Reprogramá y cancelá fácil",
@@ -9,7 +9,7 @@ function Features() {
     { icon: "fa-shield-alt",    title: "Validación de seña y pagos",
       desc: "Pedí seña, verificala automáticamente y liberá el horario si no se confirma a tiempo." },
     { icon: "fa-th-large",      title: "Panel de administración",
-      desc: "Gestioná canchas, precios, días bloqueados y permisos de tu equipo desde un panel web claro." },
+      desc: "Gestioná tus canchas y actividades desde un panel web claro." },
     { icon: "fa-chart-pie",     title: "Métricas del negocio",
       desc: "Mirá horarios pico, tendencias de ingresos y mejores clientes — decidí qué horarios promocionar." },
   ];
@@ -19,7 +19,7 @@ function Features() {
         <div className="eyebrow">Características</div>
         <h2 className="section__title">Todo lo que tu complejo necesita para funcionar solo.</h2>
         <p className="section__sub">
-          Diseñado para dueños, no para programadores. Sin curva de aprendizaje.
+          Diseñado para dueños. Fácil de usar. 
         </p>
       </div>
       <div className="features__grid">

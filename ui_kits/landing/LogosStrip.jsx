@@ -1,3 +1,4 @@
+// Función para mostrar el "Elegido por complejos deportivos de toda Latinoamérica"
 function LogosStrip() {
   const clubs = [
     "Club Pacheco", "La Redonda", "Complejo San Isidro",
